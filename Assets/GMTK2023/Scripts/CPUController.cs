@@ -29,11 +29,16 @@ public class CPUController : MonoBehaviour
         hammer.RegisterCheckCollision(callback);
     }
 
+    public void ClearCurrentQueue()
+    {
+        movedPositions.Clear();
+    }
+
     public void SetHammerAttributes()
     {
-        hammer.attributes.toMove -= 0.001f;
-        hammer.attributes.toGoDown -= 0.001f;
-        hammer.attributes.toGoUp -= 0.001f;
+        hammer.attributes.toMove -= 0.005f;
+        hammer.attributes.toGoDown -= 0.005f;
+        hammer.attributes.toGoUp -= 0.005f;
     }
 
     private void Update()

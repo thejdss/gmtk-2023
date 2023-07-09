@@ -12,7 +12,7 @@ public class Hammer : MonoBehaviour
     private Action onCompleteMovement;
     private Action onCheckCollision;
     private Vector2 startPos;
-
+    private Sequence seq;
     private bool isMoving;
 
     public bool IsMoving => isMoving;
@@ -34,15 +34,17 @@ public class Hammer : MonoBehaviour
 
     public void CheckHole(ICharacterAttributes data)
     {
+        isMoving = true;
+
         if (data.Character.localPosition.y <= -2.3f)
         {
-            isMoving = false;
             onCompleteMovement?.Invoke();
+            isMoving = false;
             return;
         }
+        seq.Kill();
 
-        isMoving = true;
-        Sequence seq = DOTween.Sequence();
+        seq = DOTween.Sequence();
         seq.Append(transform.DOMove(data.HolePosition, attributes.toMove))
             .Append(hammerTransform.DOLocalMoveY(5.3f, attributes.toGoDown).OnComplete(() => 
             { 
@@ -79,15 +81,15 @@ public class Hammer : MonoBehaviour
 
     private void OnCompleteGoToHole()
     {
-        isMoving = false;
         onCompleteMovement?.Invoke();
+        isMoving = false;
     }
 }
 
 [Serializable]
 public class HammerAttributes
 {
-    public float toMove = 0.4f;
+    public float toMove = 0.25f;
     public float toGoDown = 0.3f;
     public float toGoUp = 0.4f;
 }

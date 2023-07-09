@@ -58,11 +58,8 @@ public class GameManager : MonoBehaviour
         currentLevel += 1;
         levelText.text = currentLevel.ToString();
 
-        cpuPoints = 0;
-        cpuPointsText.text = cpuPoints.ToString();
-
         cpuController.SetHammerAttributes();
-
+        cpuController.ClearCurrentQueue();
         boardController.ResetCurrentMove();
 
         timerIsRunning = true;
