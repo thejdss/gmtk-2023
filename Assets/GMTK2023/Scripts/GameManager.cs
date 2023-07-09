@@ -44,6 +44,9 @@ public class GameManager : MonoBehaviour
     {
         UpdateTimer();
         UpdateThings();
+
+        if (Input.GetKeyDown(KeyCode.P))
+            SceneManager.LoadSceneAsync(0);
     }
 
     public void StartLevel()
@@ -59,6 +62,8 @@ public class GameManager : MonoBehaviour
         cpuPointsText.text = cpuPoints.ToString();
 
         cpuController.SetHammerAttributes();
+
+        boardController.ResetCurrentMove();
 
         timerIsRunning = true;
     }
@@ -82,7 +87,6 @@ public class GameManager : MonoBehaviour
     private void DecreaseThings()
     {
         things -= 1;
-        Debug.Log("Play " + things);
         thingsText.text = things.ToString();
     }
 

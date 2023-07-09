@@ -27,6 +27,11 @@ public class BoardController : MonoBehaviour
         onHoldUp += callback;
     }
 
+    public void ResetCurrentMove()
+    {
+        currentMove = 0;
+    }
+
     private void MoveUp(ICharacterAttributes item)
     {
         if (currentMove >= maxMoves)

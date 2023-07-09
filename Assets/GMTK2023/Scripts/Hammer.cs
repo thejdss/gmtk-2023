@@ -7,6 +7,7 @@ public class Hammer : MonoBehaviour
     [SerializeField] private Transform hammerTransform;
     [SerializeField] private GameObject hitParticle;
     [SerializeField] private GameObject fogParticle;
+    [SerializeField] private AudioSource hitAudio;
     public HammerAttributes attributes;
     private Action onCompleteMovement;
     private Action onCheckCollision;
@@ -33,10 +34,23 @@ public class Hammer : MonoBehaviour
 
     public void CheckHole(ICharacterAttributes data)
     {
+        if (data.Character.localPosition.y <= -2.3f)
+        {
+            isMoving = false;
+            onCompleteMovement?.Invoke();
+            return;
+        }
+
         isMoving = true;
         Sequence seq = DOTween.Sequence();
         seq.Append(transform.DOMove(data.HolePosition, attributes.toMove))
-            .Append(hammerTransform.DOLocalMoveY(5.3f, attributes.toGoDown).OnComplete(() => CheckCollision(data.Character.localPosition)))
+            .Append(hammerTransform.DOLocalMoveY(5.3f, attributes.toGoDown).OnComplete(() => 
+            { 
+                CheckCollision(data.Character.localPosition); 
+                if (hitAudio.isPlaying) 
+                    hitAudio.Stop(); 
+                hitAudio.Play(); 
+            }))
             .PrependInterval(0.5f)
             .Append(hammerTransform.DOLocalMoveY(63f, attributes.toGoUp)).OnComplete(OnCompleteGoToHole);
             //.Append(transform.DOMove(startPos, 1f).OnComplete(OnCompleteGoToHole));
