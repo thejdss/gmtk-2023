@@ -54,6 +54,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxMoves: 3
+  moveConfiguration:
+    maxUpPosition: 1
+    maxUpTime: 0.4
+    maxDownPositions: 0
+    maxDownTime: 0.2
+    holdTime: 0.7
   characters:
   - key: 122
     character: {fileID: 2380548099220214203}

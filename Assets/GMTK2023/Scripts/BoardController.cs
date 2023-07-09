@@ -6,6 +6,7 @@ using UnityEngine;
 public class BoardController : MonoBehaviour
 {
     [SerializeField] private int maxMoves;
+    [SerializeField] private MoveConfiguration moveConfiguration;
     [SerializeField] private CharacterPack[] characters;
 
     private int currentMove;
@@ -26,7 +27,7 @@ public class BoardController : MonoBehaviour
             return;
 
         item.Character.DOKill(false);
-        item.Character.DOLocalMoveY(1f, 0.4f, false).SetAutoKill(false).OnComplete(() => HoldOnTop(item));
+        item.Character.DOLocalMoveY(moveConfiguration.maxUpPosition, moveConfiguration.maxUpTime, false).SetAutoKill(false).OnComplete(() => HoldOnTop(item));
     }
 
     private void MoveDown(ICharacterAttributes item)
@@ -35,7 +36,7 @@ public class BoardController : MonoBehaviour
             return;
 
         item.Character.DOKill(false);
-        item.Character.DOLocalMoveY(0f, 0.2f, false).SetAutoKill(false);
+        item.Character.DOLocalMoveY(moveConfiguration.maxDownPositions, moveConfiguration.maxDownTime, false).SetAutoKill(false);
     }
 
     private void DecreaseCurrentMove()
@@ -57,7 +58,7 @@ public class BoardController : MonoBehaviour
     {
         item.Hold = true;
         IncreaseCurrentMove();
-        yield return new WaitForSeconds(0.7f);
+        yield return new WaitForSeconds(moveConfiguration.holdTime);
         item.Hold = false;
         DecreaseCurrentMove();
 
@@ -70,4 +71,12 @@ public class CharacterPack
 {
     public KeyCode key;
     public MovementExposer character;
+}
+
+[Serializable]
+public struct MoveConfiguration
+{
+    public float maxUpPosition, maxUpTime;
+    public float maxDownPositions, maxDownTime;
+    public float holdTime;
 }
