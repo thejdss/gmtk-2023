@@ -9,6 +9,7 @@ public class BoardController : MonoBehaviour
     [SerializeField] private MoveConfiguration moveConfiguration;
     [SerializeField] private CharacterPack[] characters;
 
+    private Action onHoldUp;
     private int currentMove;
 
     private void Start()
@@ -19,6 +20,11 @@ public class BoardController : MonoBehaviour
             item.character.RegisterEvents(MoveDown, MoveUp);
             item.character.RegisterEvents((x) => DecreaseCurrentMove(), (x) => IncreaseCurrentMove());
         }
+    }
+
+    public void RegisterOnHold(Action callback)
+    {
+        onHoldUp += callback;
     }
 
     private void MoveUp(ICharacterAttributes item)
@@ -59,6 +65,7 @@ public class BoardController : MonoBehaviour
         item.Hold = true;
         IncreaseCurrentMove();
         yield return new WaitForSeconds(moveConfiguration.holdTime);
+        onHoldUp?.Invoke();
         item.Hold = false;
         DecreaseCurrentMove();
 
