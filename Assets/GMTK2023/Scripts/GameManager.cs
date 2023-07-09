@@ -12,12 +12,17 @@ public class GameManager : MonoBehaviour
     public int things = 1;
     public TextMeshProUGUI thingsText;
 
+    public int cpuPoints;
+    public TextMeshProUGUI cpuPointsText;
+    public CPUController cpuController;
+
     public TextMeshProUGUI timeText;
     public float timeRemaining = 160;
     public bool timerIsRunning;
 
     private void Start()
     {
+        cpuController.RegisterHammerCheckCollision(IncreaseCPUPoints);
         StartLevel();
     }
 
@@ -35,8 +40,17 @@ public class GameManager : MonoBehaviour
         level += 1;
         levelText.text = level.ToString();
 
+        cpuPoints += 1;
+        cpuPointsText.text = cpuPoints.ToString();
+
         boardController.RegisterOnHold(DecreaseThings);
         timerIsRunning = true;
+    }
+
+    private void IncreaseCPUPoints()
+    {
+        cpuPoints += 1;
+        cpuPointsText.text = cpuPoints.ToString();
     }
 
     private void DecreaseThings()

@@ -11,9 +11,10 @@ public class MovementExposer : MonoBehaviour, ICharacterAttributes
     private Action<ICharacterAttributes> onClickDown;
     private Action<ICharacterAttributes> onClickUp;
 
+    public Transform Character => character.transform;
+    public KeyCode Key => key;
+    public Vector3 HolePosition => transform.position;
     public bool Hold { get => hold; set => hold = value; }
-    public Transform Character { get => character.transform; }
-    public KeyCode Key { get => key; }
 
     public void SetKey(KeyCode key)
     {
