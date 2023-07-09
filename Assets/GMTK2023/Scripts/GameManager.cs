@@ -1,50 +1,65 @@
 using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public static bool CanPlay;
+    public GameAttributes attributes;
+    public Animator animatorPeoples;
+
     public GameObject gameOverScreen;
-    public int level = 1;
+    public int currentLevel = 1;
     public TextMeshProUGUI levelText;
 
     public BoardController boardController;
-    public int things = 1;
+    private int things = 1;
     public TextMeshProUGUI thingsText;
 
-    public int cpuPoints;
+    private int cpuPoints = 0;
     public TextMeshProUGUI cpuPointsText;
     public CPUController cpuController;
 
     public TextMeshProUGUI timeText;
-    public float timeRemaining = 160;
-    public bool timerIsRunning;
+    private float timeRemaining = 160;
+    private bool timerIsRunning;
+
+    private int startThings;
+    private float startTime;
 
     private void Start()
     {
         cpuController.RegisterHammerCheckCollision(IncreaseCPUPoints);
+        boardController.RegisterOnHold(DecreaseThings);
+
+        CanPlay = true;
+        currentLevel = -1;
+
+        startTime = attributes.timeRemaining;
+        startThings = attributes.things;
     }
 
     private void Update()
     {
         UpdateTimer();
+        UpdateThings();
     }
 
     public void StartLevel()
     {
-        timeRemaining = 30;
-        things = 10;
+        timeRemaining = startTime = startTime - 10;
+        things = startThings = startThings + 2;
         thingsText.text = things.ToString();
 
-        level += 1;
-        levelText.text = level.ToString();
+        currentLevel += 1;
+        levelText.text = currentLevel.ToString();
 
-        cpuPoints += 1;
+        cpuPoints = 0;
         cpuPointsText.text = cpuPoints.ToString();
 
-        boardController.RegisterOnHold(DecreaseThings);
+        cpuController.SetHammerAttributes();
+
         timerIsRunning = true;
     }
 
@@ -67,6 +82,7 @@ public class GameManager : MonoBehaviour
     private void DecreaseThings()
     {
         things -= 1;
+        Debug.Log("Play " + things);
         thingsText.text = things.ToString();
     }
 
@@ -82,9 +98,19 @@ public class GameManager : MonoBehaviour
             else
             {
                 timeRemaining = 0;
-                timerIsRunning = false;
                 FinishLevel();
+                timerIsRunning = false;
             }
+        }
+    }
+
+    private void UpdateThings()
+    {
+        if (things <= 0)
+        {
+            timeRemaining = 0;
+            timerIsRunning = false;
+            StartCoroutine(StartNewLevel());
         }
     }
 
@@ -96,12 +122,31 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            StartLevel();
+            StartCoroutine(StartNewLevel());
         }
+    }
+
+    private IEnumerator StartNewLevel()
+    {
+        CanPlay = false;
+        things = 1;
+        int rand = Random.Range(0, 5);
+        animatorPeoples.SetInteger("PeopleNumber", rand);
+        animatorPeoples.SetTrigger("End");
+        yield return new WaitForSeconds(3.5f);
+        StartLevel();
+        CanPlay = true;
     }
 
     private void DisplayTime(float timeToDisplay)
     {
         timeText.text = timeToDisplay.ToString("00");
     }
+}
+
+[System.Serializable]
+public class GameAttributes
+{
+    public int things = 2;
+    public float timeRemaining = 160;
 }

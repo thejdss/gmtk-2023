@@ -34,6 +34,7 @@ public class BoardController : MonoBehaviour
 
         item.Character.DOKill(false);
         item.Character.DOLocalMoveY(moveConfiguration.maxUpPosition, moveConfiguration.maxUpTime, false).SetAutoKill(false).OnComplete(() => HoldOnTop(item));
+        DOVirtual.Float(0f, 2f, 1.5f, t => item.Animator.SetFloat("Blend", t)).Play();
     }
 
     private void MoveDown(ICharacterAttributes item)

@@ -3,6 +3,7 @@ using System;
 
 public class MovementExposer : MonoBehaviour, ICharacterAttributes
 {
+    [SerializeField] private Animator animator;
     [SerializeField] private GameObject character;
     [SerializeField] private GameObject center;
 
@@ -12,6 +13,7 @@ public class MovementExposer : MonoBehaviour, ICharacterAttributes
     private Action<ICharacterAttributes> onClickDown;
     private Action<ICharacterAttributes> onClickUp;
 
+    public Animator Animator => animator;
     public Transform Character => character.transform;
     public KeyCode Key => key;
     public Vector3 HolePosition => center.transform.position;
@@ -32,6 +34,9 @@ public class MovementExposer : MonoBehaviour, ICharacterAttributes
 
     private void Update()
     {
+        if(!GameManager.CanPlay)
+            return;
+
         if (Input.GetKeyDown(key))
         {
             onClickDown?.Invoke(this);
