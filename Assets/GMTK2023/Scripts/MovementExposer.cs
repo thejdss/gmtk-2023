@@ -13,16 +13,19 @@ public class MovementExposer : MonoBehaviour, ICharacterAttributes
 
     public bool Hold { get => hold; set => hold = value; }
     public Transform Character { get => character.transform; }
+    public KeyCode Key { get => key; }
 
     public void SetKey(KeyCode key)
     {
         this.key = key;
     }
 
-    public void RegisterEvents(Action<ICharacterAttributes> onClickUp, Action<ICharacterAttributes> onClickDown)
+    public void RegisterEvents(Action<ICharacterAttributes> onClickUp = null, Action<ICharacterAttributes> onClickDown = null)
     {
-        this.onClickUp += onClickUp;
-        this.onClickDown += onClickDown;
+        if(onClickUp != null)
+            this.onClickUp += onClickUp;
+        if (onClickDown != null)
+            this.onClickDown += onClickDown;
     }
 
     private void Update()
