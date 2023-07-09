@@ -5,6 +5,8 @@ using UnityEngine;
 public class Hammer : MonoBehaviour
 {
     [SerializeField] private Transform hammerTransform;
+    [SerializeField] private GameObject hitParticle;
+    [SerializeField] private GameObject fogParticle;
     private Action onCompleteMovement;
     private Action onCheckCollision;
     private Vector2 startPos;
@@ -32,10 +34,10 @@ public class Hammer : MonoBehaviour
     {
         isMoving = true;
         Sequence seq = DOTween.Sequence();
-        seq.Append(transform.DOMove(data.HolePosition, 1f))
-            .Append(hammerTransform.DOLocalMoveY(0f, 0.5f).OnComplete(() => CheckCollision(data.Character.localPosition)))
+        seq.Append(transform.DOMove(data.HolePosition, 0.3f))
+            .Append(hammerTransform.DOLocalMoveY(5.3f, 0.2f).OnComplete(() => CheckCollision(data.Character.localPosition)))
             .PrependInterval(0.5f)
-            .Append(hammerTransform.DOLocalMoveY(63f, 0.8f)).OnComplete(OnCompleteGoToHole);
+            .Append(hammerTransform.DOLocalMoveY(63f, 0.4f)).OnComplete(OnCompleteGoToHole);
             //.Append(transform.DOMove(startPos, 1f).OnComplete(OnCompleteGoToHole));
 
         seq.Play();
@@ -43,16 +45,18 @@ public class Hammer : MonoBehaviour
 
     private void CheckCollision(Vector3 pos)
     {
-        if (pos.y > 0.2f)
+        if (pos.y > -1.48f)
         {
-            //colidiu
-            /*tocar particula*/
-            Debug.Log(pos);
+            if (hitParticle.activeInHierarchy)
+                hitParticle.SetActive(false);
+            hitParticle.SetActive(true);
             onCheckCollision?.Invoke();
         }
         else
         {
-            //n colidiu
+            if (fogParticle.activeInHierarchy)
+                fogParticle.SetActive(false);
+            fogParticle.SetActive(true);
         }
     }
 

@@ -4,6 +4,7 @@ using System;
 public class MovementExposer : MonoBehaviour, ICharacterAttributes
 {
     [SerializeField] private GameObject character;
+    [SerializeField] private GameObject center;
 
     private KeyCode key;
     private bool hold;
@@ -13,7 +14,7 @@ public class MovementExposer : MonoBehaviour, ICharacterAttributes
 
     public Transform Character => character.transform;
     public KeyCode Key => key;
-    public Vector3 HolePosition => transform.position;
+    public Vector3 HolePosition => center.transform.position;
     public bool Hold { get => hold; set => hold = value; }
 
     public void SetKey(KeyCode key)

@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public GameObject gameOverScreen;
     public int level = 1;
     public TextMeshProUGUI levelText;
 
@@ -23,7 +25,6 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         cpuController.RegisterHammerCheckCollision(IncreaseCPUPoints);
-        StartLevel();
     }
 
     private void Update()
@@ -31,7 +32,7 @@ public class GameManager : MonoBehaviour
         UpdateTimer();
     }
 
-    private void StartLevel()
+    public void StartLevel()
     {
         timeRemaining = 30;
         things = 10;
@@ -47,9 +48,19 @@ public class GameManager : MonoBehaviour
         timerIsRunning = true;
     }
 
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+    public void RestartScene()
+    {
+        SceneManager.LoadSceneAsync(0);
+    }
+
     private void IncreaseCPUPoints()
     {
-        cpuPoints += 1;
+        cpuPoints += 10;
         cpuPointsText.text = cpuPoints.ToString();
     }
 
@@ -81,7 +92,7 @@ public class GameManager : MonoBehaviour
     {
         if (things > 0)
         {
-            // game over
+            gameOverScreen.SetActive(true);
         }
         else
         {

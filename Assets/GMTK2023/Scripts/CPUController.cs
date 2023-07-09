@@ -59,7 +59,7 @@ public class CPUController : MonoBehaviour
     private IEnumerator ICheckCharacterPosition(ICharacterAttributes item)
     {
         yield return new WaitForSeconds(checkDelay);
-        if (item.Character.localPosition.y > 0.5f)
+        if (item.Character.localPosition.y > -0.80f)
         {
             movedPositions.Enqueue(item);
             if (!hammer.IsMoving)
