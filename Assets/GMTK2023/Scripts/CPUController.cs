@@ -23,10 +23,17 @@ public class CPUController : MonoBehaviour
             item.RegisterEvents(null, CheckCharacterPosition);
         }
     }
-
+     
     public void RegisterHammerCheckCollision(Action callback)
     {
         hammer.RegisterCheckCollision(callback);
+    }
+
+    public void SetHammerAttributes()
+    {
+        hammer.attributes.toMove -= 0.001f;
+        hammer.attributes.toGoDown -= 0.001f;
+        hammer.attributes.toGoUp -= 0.001f;
     }
 
     private void Update()
@@ -59,7 +66,7 @@ public class CPUController : MonoBehaviour
     private IEnumerator ICheckCharacterPosition(ICharacterAttributes item)
     {
         yield return new WaitForSeconds(checkDelay);
-        if (item.Character.localPosition.y > -0.80f)
+        if (item.Character.localPosition.y > -0.8f)
         {
             movedPositions.Enqueue(item);
             if (!hammer.IsMoving)

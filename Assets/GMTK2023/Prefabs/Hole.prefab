@@ -70,7 +70,7 @@ RectTransform:
   - {fileID: 5834844023044879337}
   - {fileID: 2212702171766194140}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -141,6 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f21ef8975b0c1464898c332dcd87231b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 265342919333152841}
   character: {fileID: 4423458092134455879}
   center: {fileID: 6892450540279823943}
 --- !u!331 &6259995039360348498
@@ -279,6 +280,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 62539a8f2afa4b54385e2c6e710fff62, type: 3}
+--- !u!95 &265342919333152841 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8774899851762758688, guid: 62539a8f2afa4b54385e2c6e710fff62, type: 3}
+  m_PrefabInstance: {fileID: 8820329654888365161}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2212702171766194140 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7267969703319765941, guid: 62539a8f2afa4b54385e2c6e710fff62, type: 3}
