@@ -1,0 +1,2513 @@
+fileFormatVersion: 2
+guid: 48bfca6f23eef0e419a30c657f73c661
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 48
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TX_Smoke_FX_0
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 384
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e41e43d108252042bb3969a0543234e
+      internalID: 514661453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_1
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 376
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4fcec596275504294ae347dbdba2b5
+      internalID: -1122221503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_2
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 364
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc19059bf5ce214faea0fdd25523a83
+      internalID: 907077087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_5
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 193
+        width: 126
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cf7de28c72d6746a61268307488460
+      internalID: 1686494396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_6
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 364
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f624c1365c309469b70f62cf9cfb06
+      internalID: 772373651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_7
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 360
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0d1fcd26f7259419b24a64baa0fca9
+      internalID: 1652156403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_11
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 310
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a6d7caf0160264e976469cfe7c5443
+      internalID: -1288086021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_13
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 282
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776a8147fbc5c894a960146956fb60bd
+      internalID: -1757828285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_16
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 256
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2fedbf919fa5e4f844df189d3affba
+      internalID: 1185613742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_17
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 332
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a5d3b218f29a3478f39e1bf6d667fa
+      internalID: -2048354532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_18
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 303
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196a8fd4d34370d41bb54134586d8e16
+      internalID: -1837304680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_19
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 307
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa26c113c07371438dc1e5a37d7cae3
+      internalID: 1209368243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_20
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 272
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094be08cd4a12244ebff4a5bc75c1f48
+      internalID: -468328089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_22
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 296
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28631d3541d8af48a1abae05676658e
+      internalID: -1414886335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_24
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 300
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c19676cba9310348a5f1583e39534a7
+      internalID: 1302431499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_25
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 284
+        width: 54
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cc5ee65840af841938cbf9b1d10007
+      internalID: -1759006609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_26
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 292
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9570aa57ce521774a8ab7346e6264532
+      internalID: 1548595901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_27
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 271
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6751be49cf6a5c4abe2eb40da602701
+      internalID: -702389598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_32
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 276
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885db39f8757f204f9772d83ddd938b6
+      internalID: -161046818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_33
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 244
+        width: 75
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21270d80e9eea74ea3334b7598ff0a0
+      internalID: 1033580401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_35
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 228
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaabf1a539e5431499a161fbc2d6a6b6
+      internalID: -264116076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_37
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 142
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa2cc5e1cd9ded4eaf5ab76cd376ee7
+      internalID: -24965700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_38
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 188
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04607e02ee59509489c68d4424042586
+      internalID: 2076598708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_39
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 190
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737158ee6cdf56e47ad774bf9699979b
+      internalID: 244749023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_40
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 176
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350770b7eb5d65143a93ebefc9d0ac7a
+      internalID: 1892040130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_41
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 184
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f62f99cb2c1f1f47b89d990c4060eaf
+      internalID: -1202208281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_42
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 180
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f463c17bf600d4abcbe91bdaba8b49
+      internalID: 2122644431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_43
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 180
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09ef45411bfb6d4285a5f1cbfdeea63
+      internalID: -446749612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_45
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 141
+        width: 93
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5690d7aad544bee498de1214fd3f97e4
+      internalID: -502157602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_46
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 135
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad76399d841e28c44917c56c9af79b79
+      internalID: 1490090215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_47
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e105e224b9b1fc54b9bd39d6e8cf603e
+      internalID: 1429473652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_48
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 117
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863ddc1bf93fc5943a9c6966010638a1
+      internalID: 1063978808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_49
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 151
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d3c101962ab9240b96989c44179264
+      internalID: 1802583155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_50
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090c28ac24c52ac4b906812e3e193f05
+      internalID: 1394653406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_51
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 156
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43b8270951077e46b883c88a740db02
+      internalID: -355599057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_53
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 115
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68101d0d278aa6d418a7b9b4aef31ad4
+      internalID: -407743805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_54
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 93
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2091ee4661b093468ff0dbc62077f2d
+      internalID: -1305990095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_55
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 111
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdb265f46375794483c59030a1f72fb
+      internalID: 166581479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_56
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 105
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7d10c817287ec4a84730db85ffef32
+      internalID: -690815685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_57
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 116
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194c633af6ccf5f4a906f2caf9471a54
+      internalID: -826249265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_58
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 102
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741051bdc6fe75341a0c6a3c0d6d2ee1
+      internalID: 787241970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_59
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 118
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe54ad68504e2949ad29fbf7900edb4
+      internalID: 1465172500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_60
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 79
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4f7c0dfbfe17d48834012842939b58
+      internalID: 1167885239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_61
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 108
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc66877bbffde9149937bc0722fce04d
+      internalID: -1069596299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_62
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 117
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1af66aac3a49f4f8bd009651b96b34
+      internalID: -1303237298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_63
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 120
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676c82bd0df38a84db50f24b505e54af
+      internalID: 918976106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_64
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 85
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a43981bf8f8e242b035b5f2514b82b
+      internalID: 1592146949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_65
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 116
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9691c9d0e0b97f94e98f9e31147ba55f
+      internalID: 1980599244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_66
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 102
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6307e2658665b48b87c8e59447035f
+      internalID: -1710447563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_67
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 128
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfa02164928e514689685544785e397
+      internalID: -649596088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_68
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 144
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7a3a49a3f37ea41840e73c696075c2
+      internalID: -452381845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_69
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 120
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eaabb573c1266548a56497668d54bab
+      internalID: 841000950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_70
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 131
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35116805ecd53443a560411319fee57
+      internalID: 114637179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_71
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 120
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14c8f07fdacdd449b7df7832ae38b77
+      internalID: -345402297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_72
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 72
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56395f52c5c8f44fa7eb573603fafd9
+      internalID: 579201077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_73
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 116
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b1aa6f4a8efca458fdeb1a736e9eaf
+      internalID: 1884453156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_74
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 120
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c6cab07734bcf489e3400475ee879e
+      internalID: -709910370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_75
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 96
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f098d495e3574ff4e861e89043514a2e
+      internalID: -2130861089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_76
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 119
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f5db8f3f14e2241a2da0bc024677e5
+      internalID: 1429272990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_77
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 131
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92f16d9fbc550147a79c5686381c55f
+      internalID: 2011876582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_78
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 107
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545d345c24d34b845b0b84cf6d1d4cfc
+      internalID: -1724275972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_79
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 133
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e9355e397456a48ab65719c7561d6a
+      internalID: 549481770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_80
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 124
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128475dba0d0994458f07c417d63e749
+      internalID: -1955058639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_81
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 122
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8573fd02d54d9c044a4860c284e56183
+      internalID: 1020321737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_82
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 108
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05471a90ad002664fab612e5dff9239a
+      internalID: 153921140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_83
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 82
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89645f65706186f4f9811898e2b99e5e
+      internalID: -2104862062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_84
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 104
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf91e0dabd5dc84d830f7e8323d57a6
+      internalID: 1391213518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_85
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 103
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5ed74879bf72f4e824fc9b546e1422
+      internalID: 401642745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_86
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 116
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91329dbe9221b9946b7a266254f02554
+      internalID: -533003641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_87
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 131
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6643d45cae188404186896f906f3635e
+      internalID: 2128591377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_88
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 108
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7987fe0711751b4198e4ea85fcdb9d6
+      internalID: 2018684110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_89
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 120
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5181356fad8b99f4ab00449b16074017
+      internalID: 1199984528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_90
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 146
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d41dec429a218499e5aaf5dacf55c2
+      internalID: 99363854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_91
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 123
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19446d9164eaaa84b93dc4c9a80a7c91
+      internalID: -1250046850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_92
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 108
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0be776b1b0e774f952f63d39bff26e
+      internalID: 128656694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_93
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 100
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c129f953ed5c6cc4e872fe92444f831e
+      internalID: -847476752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_94
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 116
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65b4d670861a1d40bb9c5748292da5f
+      internalID: 1387422115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_95
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 92
+        width: 51
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3676f12dccd6ad4badbf49aa795c3b0
+      internalID: 1287182146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_96
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 127
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e0f5a5573e41248aa7c5df9d065af5
+      internalID: -1861512631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_97
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 49
+        width: 71
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5beddc729ce38cb458f6a025ee0c9faf
+      internalID: -1156832105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_98
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 82
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e714f02911f824382d3fa72e747865
+      internalID: 1615129041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_99
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 97
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50d184520b8881489dc80fc8f04f981
+      internalID: 163082041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_100
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 89
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77a1df9ec36dcc4ca0ca3f584bbb32d
+      internalID: 1137446568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_101
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 75
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec38a5e3a0fd764bb6b7d13f79f7233
+      internalID: -2078973698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_102
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 88
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94a9753509d8be46b4341ea104c89e2
+      internalID: -1921488631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_103
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 88
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907b9c4479201fc4bb6bc5d8da293a3f
+      internalID: 148170080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_104
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 85
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3922738873887ec4e860a2dd356f3206
+      internalID: 1803678373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_105
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 79
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea74644e3d325bb49b952b395ba44b52
+      internalID: -12683347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_106
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 76
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9666f5b723ba345ab3590498e9a535
+      internalID: -1320859306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_107
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 80
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070e78b9eb0e53a45a189a2fb8093ba1
+      internalID: 182690044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_108
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 76
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a781c4104281644a16d36c6278f1b3
+      internalID: 2039962091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_109
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 63
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad40a2ca84b8704598681d5e4fce9c1
+      internalID: -1735746174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_110
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 76
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebe63cfcfe22ca42a6bbf5a58047946
+      internalID: 1661872237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_111
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 68
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7c4f83c4559a043af27f66042321a4
+      internalID: 1895869916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_112
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 66
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85963cf0e1c6de043b8c45dfbad54e53
+      internalID: 1163720658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_113
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 76
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e22da5dcf763924fa3a2c1831c677fa
+      internalID: 187152217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_114
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 71
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07dc9d08621062489a48e600e95483c
+      internalID: 427822290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_116
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 52
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381776a441bca6646a999295ee03486b
+      internalID: 322422163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_117
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 44
+        width: 50
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb7fcf736c2d9748b823c870e074951
+      internalID: 884645945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_118
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 68
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283222ec0b02b5643a1a534f86a52ddb
+      internalID: -431177115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_119
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 54
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25e60d12a1d5214297c9de54b6cdf8b
+      internalID: 1252519216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_120
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 56
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a51ec79c37a7441a2f600647d2e95b
+      internalID: 1374095971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_121
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 63
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a825a00ffbeafbf489a2311a45e6bd0e
+      internalID: -1724675239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_122
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 64
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce84f18d017ca543aba96839cc230d0
+      internalID: 39722372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_123
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 60
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee428b32e634ba6489fc962ca8b804ed
+      internalID: -620303862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_124
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 52
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffdf0d53c60bd14aa873686809080d3
+      internalID: -396766296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX_Smoke_FX_125
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 40
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47b95fd944efd84b8aeb069cbb13d5e
+      internalID: -450719683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TX_Smoke_FX_0: 514661453
+      TX_Smoke_FX_1: -1122221503
+      TX_Smoke_FX_10: -1194175108
+      TX_Smoke_FX_100: 1137446568
+      TX_Smoke_FX_101: -2078973698
+      TX_Smoke_FX_102: -1921488631
+      TX_Smoke_FX_103: 148170080
+      TX_Smoke_FX_104: 1803678373
+      TX_Smoke_FX_105: -12683347
+      TX_Smoke_FX_106: -1320859306
+      TX_Smoke_FX_107: 182690044
+      TX_Smoke_FX_108: 2039962091
+      TX_Smoke_FX_109: -1735746174
+      TX_Smoke_FX_11: -1288086021
+      TX_Smoke_FX_110: 1661872237
+      TX_Smoke_FX_111: 1895869916
+      TX_Smoke_FX_112: 1163720658
+      TX_Smoke_FX_113: 187152217
+      TX_Smoke_FX_114: 427822290
+      TX_Smoke_FX_115: -1619295157
+      TX_Smoke_FX_116: 322422163
+      TX_Smoke_FX_117: 884645945
+      TX_Smoke_FX_118: -431177115
+      TX_Smoke_FX_119: 1252519216
+      TX_Smoke_FX_12: 799257440
+      TX_Smoke_FX_120: 1374095971
+      TX_Smoke_FX_121: -1724675239
+      TX_Smoke_FX_122: 39722372
+      TX_Smoke_FX_123: -620303862
+      TX_Smoke_FX_124: -396766296
+      TX_Smoke_FX_125: -450719683
+      TX_Smoke_FX_13: -1757828285
+      TX_Smoke_FX_14: 876887788
+      TX_Smoke_FX_15: 2059738322
+      TX_Smoke_FX_16: 1185613742
+      TX_Smoke_FX_17: -2048354532
+      TX_Smoke_FX_18: -1837304680
+      TX_Smoke_FX_19: 1209368243
+      TX_Smoke_FX_2: 907077087
+      TX_Smoke_FX_20: -468328089
+      TX_Smoke_FX_21: 1687242290
+      TX_Smoke_FX_22: -1414886335
+      TX_Smoke_FX_23: 224952300
+      TX_Smoke_FX_24: 1302431499
+      TX_Smoke_FX_25: -1759006609
+      TX_Smoke_FX_26: 1548595901
+      TX_Smoke_FX_27: -702389598
+      TX_Smoke_FX_28: 478723218
+      TX_Smoke_FX_29: 567117021
+      TX_Smoke_FX_3: -195646511
+      TX_Smoke_FX_30: -1895375366
+      TX_Smoke_FX_31: -1282349800
+      TX_Smoke_FX_32: -161046818
+      TX_Smoke_FX_33: 1033580401
+      TX_Smoke_FX_34: 416209635
+      TX_Smoke_FX_35: -264116076
+      TX_Smoke_FX_36: -152724991
+      TX_Smoke_FX_37: -24965700
+      TX_Smoke_FX_38: 2076598708
+      TX_Smoke_FX_39: 244749023
+      TX_Smoke_FX_4: -2100009271
+      TX_Smoke_FX_40: 1892040130
+      TX_Smoke_FX_41: -1202208281
+      TX_Smoke_FX_42: 2122644431
+      TX_Smoke_FX_43: -446749612
+      TX_Smoke_FX_44: -1791628598
+      TX_Smoke_FX_45: -502157602
+      TX_Smoke_FX_46: 1490090215
+      TX_Smoke_FX_47: 1429473652
+      TX_Smoke_FX_48: 1063978808
+      TX_Smoke_FX_49: 1802583155
+      TX_Smoke_FX_5: 1686494396
+      TX_Smoke_FX_50: 1394653406
+      TX_Smoke_FX_51: -355599057
+      TX_Smoke_FX_52: 874506071
+      TX_Smoke_FX_53: -407743805
+      TX_Smoke_FX_54: -1305990095
+      TX_Smoke_FX_55: 166581479
+      TX_Smoke_FX_56: -690815685
+      TX_Smoke_FX_57: -826249265
+      TX_Smoke_FX_58: 787241970
+      TX_Smoke_FX_59: 1465172500
+      TX_Smoke_FX_6: 772373651
+      TX_Smoke_FX_60: 1167885239
+      TX_Smoke_FX_61: -1069596299
+      TX_Smoke_FX_62: -1303237298
+      TX_Smoke_FX_63: 918976106
+      TX_Smoke_FX_64: 1592146949
+      TX_Smoke_FX_65: 1980599244
+      TX_Smoke_FX_66: -1710447563
+      TX_Smoke_FX_67: -649596088
+      TX_Smoke_FX_68: -452381845
+      TX_Smoke_FX_69: 841000950
+      TX_Smoke_FX_7: 1652156403
+      TX_Smoke_FX_70: 114637179
+      TX_Smoke_FX_71: -345402297
+      TX_Smoke_FX_72: 579201077
+      TX_Smoke_FX_73: 1884453156
+      TX_Smoke_FX_74: -709910370
+      TX_Smoke_FX_75: -2130861089
+      TX_Smoke_FX_76: 1429272990
+      TX_Smoke_FX_77: 2011876582
+      TX_Smoke_FX_78: -1724275972
+      TX_Smoke_FX_79: 549481770
+      TX_Smoke_FX_8: -1347039507
+      TX_Smoke_FX_80: -1955058639
+      TX_Smoke_FX_81: 1020321737
+      TX_Smoke_FX_82: 153921140
+      TX_Smoke_FX_83: -2104862062
+      TX_Smoke_FX_84: 1391213518
+      TX_Smoke_FX_85: 401642745
+      TX_Smoke_FX_86: -533003641
+      TX_Smoke_FX_87: 2128591377
+      TX_Smoke_FX_88: 2018684110
+      TX_Smoke_FX_89: 1199984528
+      TX_Smoke_FX_9: -1493968430
+      TX_Smoke_FX_90: 99363854
+      TX_Smoke_FX_91: -1250046850
+      TX_Smoke_FX_92: 128656694
+      TX_Smoke_FX_93: -847476752
+      TX_Smoke_FX_94: 1387422115
+      TX_Smoke_FX_95: 1287182146
+      TX_Smoke_FX_96: -1861512631
+      TX_Smoke_FX_97: -1156832105
+      TX_Smoke_FX_98: 1615129041
+      TX_Smoke_FX_99: 163082041
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
